@@ -36,15 +36,15 @@ namespace OktaWebApiApp.Controllers
         {
             //values.Add(value);
 
-            List<Command> commands = new List<Command>();
-            Value valueModel = new Value();
-            valueModel.registration = "ALLOW";
-            Command command = new Command();
-            command.type = "com.okta.action.update";
-            command.value = valueModel;
-            commands.Add(command);
-            OktaResponseModel oktaResponseModel = new OktaResponseModel();
-            oktaResponseModel.commands = commands;
+            //List<Command> commands = new List<Command>();
+            //Value valueModel = new Value();
+            //valueModel.registration = "ALLOW";
+            //Command command = new Command();
+            //command.type = "com.okta.action.update";
+            //command.value = valueModel;
+            //commands.Add(command);
+            //OktaResponseModel oktaResponseModel = new OktaResponseModel();
+            //oktaResponseModel.commands = commands;
 
             //string allText = System.IO.File.ReadAllText(@"D:\Venkat\Demo_Projects\SampleOktaWebApiApp\SampleOktaWebApiApp\App_Data\error.json");
 
@@ -73,7 +73,7 @@ namespace OktaWebApiApp.Controllers
             //OktaResponseModel oktaResponseModel = new OktaResponseModel();
             //oktaResponseModel.commands = commands;
 
-            return Ok(oktaResponseModel);
+            return Ok();
         }
 
         // PUT api/values/5
